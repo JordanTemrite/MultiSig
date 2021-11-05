@@ -11,10 +11,10 @@ contract PaymentProcessor is Ownable {
     address payable thisContract;
     
     address[] public _signers = [
-  	    0xAF5d27F706F4c44351185268f18C5059610b75fA,
-  	    0x88FaE7FAD14b0621D48D9a86e5c3fFa7B86e1aCC,
-  	    0x3DE0d5C6AAbdd4333b2B567Bc39F9771b800202F,
-  	    0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+  	    0x4CC8DE5bfB3Ee7bb6a6e8474AdC7BE21D75Bd856,
+  	    0x762986B8EE42642f4e134b86fD04E2573f4E64ED,
+  	    0xF06BF61831C996CCFFAF081b8A3cF6eFDBd86275,
+  	    0xE2c2Ce56F0b18c8Bc4a524E4491796BF1Ce02F31
   	    ];
     
     mapping(address => bool) public _signatureStatus;
