@@ -25,6 +25,10 @@ contract PaymentProcessor is Ownable {
         }
     }
     
+    receive() external payable {
+        
+    }
+    
     fallback() external payable {
 
   	}
